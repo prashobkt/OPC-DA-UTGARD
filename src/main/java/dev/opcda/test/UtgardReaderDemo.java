@@ -23,9 +23,9 @@ public class UtgardReaderDemo {
   public static void main(String[] args) throws Exception {
     Logger.getLogger("org.jinterop").setLevel(Level.ALL); // Quiet => Level.OFF
 
-    final String host = "devcomp";
-    final String user = "prashob";
-    final String password = "123";
+    final String host = "";
+    final String user = "";
+    final String password = "";
     // Powershell: Get-ItemPropertyValue 'Registry::HKCR\Matrikon.OPC.Simulation.1\CLSID' '(default)'
     final String clsId = System.getProperty("clsId", "F8582CF2-88FB-11D0-B850-00C0F0104305");
     final String itemId = System.getProperty("itemId", "Saw-toothed Waves.Int2");
